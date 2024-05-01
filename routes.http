@@ -1,0 +1,27 @@
+ POST http://localhost:8050/videos
+Content-Type: application/json
+
+{
+"title": "node",
+"description": "Primeiro video",
+"duration": 180
+}
+
+###
+ GET http://localhost:8050/videos
+
+###
+
+ PUT http://localhost:8050/videos/64a1def9-3c99-43e0-b1db-b3b8a1995868
+Content-Type: application/json
+
+{
+"title": "Video 02",
+"description": "Primeiro video atz",
+"duration": 180
+}
+
+###
+ DELETE  http://localhost:8050/videos/64a1def9-3c99-43e0-b1db-b3b8a1995868
+
+###
